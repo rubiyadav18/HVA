@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  background-color: #f3f2ef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__left img {
+  object-fit: contain;
+  height: 42px;
+  margin-right: 20px;
+}
+
+.header {
+  height: 60px;
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  justify-content: space-evenly;
+  border-bottom: 0.1px solid lightgray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  background-color: white;
+}
+
+.header__left {
+  display: flex;
+}
+
+.header__right {
+  display: flex;
+}
+
+.header__search {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  height: 20px;
+  width: 400px;
+  color: gray;
+  background-color: #eef3f8;
+}
+
+.header__search > input {
+  outline: none;
+  border: none;
+  background: none;
+  width: 600rem;
+}
+
+.headerOption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  color: gray;
+  cursor: pointer;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.headerOption:hover {
+  color: black;
+}
+
+.headerOption h3 {
+  font-size: 12px;
+  margin-top: 10px;
+  
+}
+
+.headerOption__icon {
+  margin-right: 5px;
+  height: 20px;
+  width: 20px;
+}
+.second_background{
+    background-color: white;
+    height: 17rem;
+    width: 48%;
+    margin-top: 3rem;
+  }
+
+.second_background h3{
+  margin-top: 1rem;
+  margin-left: 27px;
+}
+.arrow{
+  margin-top: -16px; 
+}
+.edu_logo img{
+  margin-top: 1rem;
+  margin-left: 27px;
+}
+.collage_heading{
+  margin-left: 6rem;
+  margin-top: -3rem;
+  font-size: 19px;
+}
+.Bachelor{
+  margin-left: 6rem;
+}
+.pencil{
+  margin-left: 53rem;
+  margin-top: -5rem;
+}
+.horizental{
+  margin-top: 5rem;
+}
+.logo_2 img{
+  margin-top: 2rem;
+  margin-left: 1.6rem;
+}
+.university{
+  margin-left: 6rem;
+  margin-top: -3rem;
+  font-size: 19px;
+}
+.arts{
+  margin-left: 6rem;
+}
+.penc_2{
+  margin-left: 53rem;
+  margin-top: -3rem;
+}
+
+.myModal4 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4);
+}
+.modal-content {
+  background-color: #fefefe;
+  overflow-y :scroll ;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+  height: 50%;
+  /* position: absolute; */
+  border-radius: 20px;
+
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
