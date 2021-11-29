@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style5.css">
+    <script src="https://kit.fontawesome.com/d4982a21df.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header__left">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/1200px-Linkedin.svg.png"
+                alt="" />
+            <div class="header__search">
+                <i class="material-icons"> </i>
+                <i class="fas fa-search"> </i>
+                <input type="text" placeholder=Search />
+            </div>
+        </div>
+
+        <div class="header__right">
+            <div class="headerOption">
+                <i id="home _icons" class="fas fa-home"></i>
+                <h3>Home</h3>
+            </div>
+
+            <div class="headerOption">
+                <i id="network" class="fas fa-network-wired"></i>
+                <h3>My Network</h3>
+            </div>
+
+            <div class="headerOption">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Jobs</h3>
+            </div>
+
+            <div class="headerOption">
+                <i class="fas fa-inbox"></i>
+                <h3>Messaging</h3>
+            </div>
+
+            <div class="headerOption">
+                <i class="far fa-bell"></i>
+                <h3>Notifications</h3>
+            </div>
+        </div>
+    </div>
+    <div class="second_background">
+     
+            <h3  class="eduction"> Education</h3>
+      
+        <div class = "arrow">
+            <i id="arrow" class="fas fa-arrow-left" class="edu_logo"></i>
+        </div>
+        <div class="edu_logo">
+            
+            <img src="https://upload.wikimedia.org/wikipedia/en/5/5a/Chhatrapati_Shahu_Ji_Maharaj_University_logo.png" height="50px" width="50px" class="logo">
+            <h1 class="collage_heading">
+                Chatrapati Sahuji Maharaj Kanpur
+                University, Kanpur
+            </h1>
+            <p class="Bachelor">
+                Bachelor of Arts BA, Computer software engineering <br>2020-2020
+            </p>
+            <div class="pencil">
+                <i id="pencel" class="fas fa-pencil-alt"></i>
+            </div>
+        </div>
+        
+        <div class="horizental">
+          <hr>
+        </div>
+        <div class="logo_2">
+    
+          <img src="https://upload.wikimedia.org/wikipedia/en/5/5a/Chhatrapati_Shahu_Ji_Maharaj_University_logo.png" height="50px" width="50px" class="logo">
+        </div>
+        <div class="university">
+            <p> <a id="clik_button" href="./collage_file.html"><strong> Chatrapati Sahuji Maharaj Kanpur
+                University, Kanpur</strong> </a>
+                
+            </p>
+        </div>
+        <div>
+            <p class="arts">Bachelor of Arts BA, Computer software engineering <br>2020-2020</p>
+        </div>
+        <div  class="penc_2">
+            <i id="pencel2" class="fas fa-pencil-alt"></i>
+        </div>
+
+    </div>
+
+    </div>
+
+
+
+<div class="myModal4" id="myModal4">
+    <div class="modal-content">
+        <input type="text" id="collage_name">
+        <input type="submit" value="submit" id="name_submit">
+
+
+
+
+    </div>
+    
+</div>
+
+
+ 
+</body>
+
+
+
+<script>
+    // Get the modal
+    var modal4 = document.getElementById("myModal4");
+    var myBtn4 = document.getElementById("pencel2");
+    var span = document.getElementById("name_submit");
+    
+
+    myBtn4.onclick = function () {
+        modal4.style.display = "block";
+    }
+
+    span.onclick = function () {
+       var a=document.getElementById("collage_name").value;
+       document.getElementById("clik_button").innerHTML=a;
+       
+
+        if ("locknow"==a){
+
+            document.getElementById("clik_button").href="lack_universty.html"
+
+        }
+        if ("allhabad"==a){
+            
+            document.getElementById("clik_button").href="all_universty.html"
+
+        }
+        if ("delhi"==a){
+            
+            document.getElementById("clik_button").href="delhi_universty.html"
+
+        }
+        modal4.style.display = "none" ;
+    }
+    window.onclick = function (event) {
+        if (event.target == modal4) {
+            modal4.style.display = "none"
+        }
+    }
+</script>
+
+
+</html>
