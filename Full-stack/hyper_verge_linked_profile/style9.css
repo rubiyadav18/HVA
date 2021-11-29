@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.second_background{
+    background-color:red;
+    height: 20rem;
+    width: 45%;
+    margin-top: 3rem;
+    
+}
+body {
+    background-color: #f3f2ef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header__left img {
+    object-fit: contain;
+    height: 42px;
+    margin-right: 20px;
+  }
+  
+  .header {
+    height: 60px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    justify-content: space-evenly;
+    border-bottom: 0.1px solid lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: white;
+  }
+  
+  .header__left {
+    display: flex;
+  }
+  
+  .header__right {
+    display: flex;
+  }
+  
+  .header__search {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 20px;
+    width: 400px;
+    color: gray;
+    background-color: #eef3f8;
+  }
+  
+  .header__search > input {
+    outline: none;
+    border: none;
+    background: none;
+    width: 600rem;
+  }
+  
+  .headerOption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    color: gray;
+    cursor: pointer;
+    font-style: italic;
+    font-weight: 400;
+  }
+  
+  .headerOption:hover {
+    color: black;
+  }
+  
+  .headerOption h3 {
+    font-size: 12px;
+    margin-top: 10px;
+    
+  }
+  
+  .headerOption__icon {
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+  }
+  .second_background{
+      background-color: white;
+      height: 35rem;
+      width: 50%;
+      margin-top: 3rem;
+      
+  }
+.collage_name_heading{
+    margin-top: 1rem;
+    font-style: italic;
+    margin-left: 1.2rem;
+}
+.my_image_seconsd_part{
+    margin-top: -10rem;
+    margin-left: 1px;
+    /* border-radius: 10px; */
+    clip-path: circle(50%);
+    Border: solid 6px white;
+    Margin-bottom: -20px;
+    border-radius: 100px;
+    
+    
+} 
+.kanpur_uttra_pradesh{
+    margin-left: 1.2rem;
+}
+.my_image{
+    margin-left: 1.3rem;
+    clip-path: circle(50%);
+    /* margin-top: -2rem; */
+}
+.my_image2{
+    clip-path: circle(50%);
+    margin-left: -1.2rem;
+
+}
+.my_image3{
+    clip-path: circle(50%);
+    margin-left: -1rem;
+
+
+}
+.people_from_your{
+    margin-top:-2rem;
+    margin-left: 6.4rem;
+}
+.tools{
+    border: 3px solid blue;
+    height: 27px;
+    width: 165px;
+    border-radius: 50px;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    background-color: #e7feff;
+
+}
+#right_icons{
+    margin-left: 12px;
+    margin-top: 5px;
+
+}
+.concat_us{
+    border: 3px solid blue;
+    height: 27px;
+    width: 165px;
+    border-radius: 50px;
+    margin-top: -1.4rem;
+    margin-left: 12rem;
+    background-color: #e7feff;
+    background-color: blue;
+
+}
+#arrow_icons{
+    margin-left: 2rem;
+    margin-top: 4px;
+    color: white;
+   
+    
+}
+.more_heading{
+    border: 3px solid black;
+    height: 27px;
+    width: 80px;
+    border-radius: 50px;
+    margin-top: -2rem;
+    margin-left: 24rem;
+    /* background-color: #e7feff; */
+    /* background-color: blue; */
+}
+.box_inside{
+    margin-top: -1.5rem;
+    margin-left: 25rem;
+
+}
+.horizenral{
+    margin-top: 1.3rem;
+}
+.home_hedaing{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    color: green;
+    font-style: italic;
+}
+.about_heading{
+    margin-left: 8rem;
+    margin-top: -1.4rem;
+    color: gray;
+    font-style: italic;
+}
+.posts_heading{
+    margin-left: 14rem;
+    margin-top: -1.7rem;
+    color: gray;
+    font-style: italic;
+
+}
+.jobs_heading{
+    margin-left: 21rem;
+    margin-top: -1.7rem;
+    color: gray;
+    font-style: italic;
+
+}
+.alumni_heading{
+    margin-left: 27rem;
+    margin-top: -1.7rem;
+    color: gray;
+    font-style: italic;
+}
+.second_horizental_line{
+    width: 4rem;
+    margin-left: 1rem;
+    background-color: green;
+}
+
+.myModal3 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4);
+  }
+  .modal-content {
+    background-color: #fefefe;
+    overflow-y :scroll ;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 20%;
+    height: 25%;
+    /* position: absolute; */
+    border-radius: 20px;
+
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+.close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .coder_pic{
+      clip-path: 50%;
+      margin-top: 2rem;
+      clip-path: circle(100%);
+
+  }
+  .Unfollow_Page_line{
+      width: 25rem;
+      margin-left: -1.6rem;
+      margin-top: 3rem;
+  }
+.you_are_about{
+    margin-top: 2rem;
+    font-style: italic;
+}
+.hoeozental_line_your_are_about{
+    width: 25rem;
+      margin-left: -1rem;
+      margin-top: 3rem;
+
+}
+.cancel_box{
+   border: 3px solid blue;
+    height: 27px;
+    width: 120px;
+    border-radius: 50px;
+    margin-top: 2rem;
+    margin-left: 8rem;
+    /* background-color: #e7feff; */
+    /* background-color: blue; */
+
+}
+.Cancil{
+    /* margin-top: 10rem; */
+    margin-top: -1.5rem;
+    margin-left: 10rem;
+
+}
+.unfollow{
+    /* border: 3px solid blue; */
+    height: 27px;
+    width: 123px;
+    border-radius: 50px;
+    margin-top: -1.6rem;
+    margin-left: 17rem;
+    background-color:blue ;
+
+}
+.unfollow_heading{
+    margin-left: 2rem;
+    margin-top:-1rem ;
+    color: white;
+}
