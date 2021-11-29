@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.second_background{
+    background-color:red;
+    height: 20rem;
+    width: 45%;
+    margin-top: 3rem;
+    
+}
+body {
+    background-color: #f3f2ef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header__left img {
+    object-fit: contain;
+    height: 42px;
+    margin-right: 20px;
+  }
+  
+  .header {
+    height: 60px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    justify-content: space-evenly;
+    border-bottom: 0.1px solid lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: white;
+  }
+  
+  .header__left {
+    display: flex;
+  }
+  
+  .header__right {
+    display: flex;
+  }
+  
+  .header__search {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 20px;
+    width: 400px;
+    color: gray;
+    background-color: #eef3f8;
+  }
+  
+  .header__search > input {
+    outline: none;
+    border: none;
+    background: none;
+    width: 600rem;
+  }
+  
+  .headerOption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    color: gray;
+    cursor: pointer;
+    font-style: italic;
+    font-weight: 400;
+  }
+  
+  .headerOption:hover {
+    color: black;
+  }
+  
+  .headerOption h3 {
+    font-size: 12px;
+    margin-top: 10px;
+    
+  }
+  
+  .headerOption__icon {
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+  }
+  .second_background{
+      background-color: white;
+      height: 40rem;
+      width: 48%;
+      margin-top: 3rem;
+      
+  }
+  .skills_heading{
+      margin-top: 2rem;
+      margin-left: 3rem;
+  }
+  .take_skils{
+      margin-left: 37rem;
+      font-size: 1.2rem;
+      border-radius: 10%;
+      color: blue;
+      border-bottom-left-radius: 10%;
+      border-bottom-right-radius: 10%;
+      margin-top: 1.8rem;
+
+
+  }
+
+.take_skils{
+    border: 3px solid cornflowerblue;
+    height: 30px;
+    width: 180px;
+    border-radius: 50px;
+    margin-top: -25px;
+    margin-left: 33rem;
+}
+.take_it_skills_heading{
+    margin-top: -1.9rem;
+    margin-left: 35rem;
+    font-size: 1.2rem;
+    color: cornflowerblue;
+}
+#dot{
+    margin-left: 4.3rem;
+    color: darkgrey;
+
+
+}
+.all{
+    margin-left: 2rem;
+    background-color: green;
+    width: 3.4rem;
+    height: 2rem;
+    border: 3px solid green;
+    border-radius: 50px;
+    margin-top: 2rem;
+
+}
+.all_heading{
+    margin-left: 1.2rem;
+    margin-top: 10px;
+    color: white;
+}
+#arrow{
+    margin-top: 1.3rem;
+}
+.tools{
+    border: 3px solid grey;
+    height: 30px;
+    width: 180px;
+    border-radius: 50px;
+    margin-top: -1.5rem;
+    margin-left: 5rem;
+
+}
+.Technical{
+    margin-left: 1.2rem;
+    margin-top: 7px;
+}
+.interpersonal_border{
+    border: 3px solid grey;
+    height: 30px;
+    width: 180px;
+    border-radius: 50px;
+    margin-top: -2.1rem;
+    margin-left: 18rem;
+
+
+    
+}
+.Interpersonal_Skills_heding{
+    margin-left: 1.5rem;
+    margin-top: 7px;
+
+}
+.skils_name{
+    /* margin-left: 1rem; */
+    margin-top: 1rem;
+}
+.horizental_line{
+    width: 51rem;
+    margin-top: 2rem;
+}
+.Javascript{
+    margin-top: 1.3rem;
+}   
+.java_heading{
+    color: black;
+}
+#pencel{
+    margin-left: 46rem;
+    color: grey;
+    margin-top: -2rem;
+    font-size: 1.3rem;
+}
+#pencel_java{
+    margin-left: 46rem;
+    color: grey;
+    margin-top: -3rem;
+    font-size: 1.3rem;
+
+}
+#pencel_html{
+    margin-left: 46rem;
+    color: grey;
+    margin-top: -3rem;
+    font-size: 1.3rem;
+
+}
+.HTML{
+    margin-top: 1.2rem;
+    color: grey;
+}
+
+.myModal2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4);
+  }
+  .modal-content {
+    background-color: #fefefe;
+    overflow-y :scroll ;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+    height: 50%;
+    /* position: absolute; */
+    border-radius: 20px;
+
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+.close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .coder_pic{
+      clip-path: 50%;
+      margin-top: 2rem;
+      clip-path: circle(100%);
+
+  }
+.horizental_line2{
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width: 50rem;
+}
+.programing_lang{
+    font-size: 1.3rem;
+    color: black;
+
+}
+.inside_imge_heading{
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+.Colleahgue_will_appear_here{
+    margin-top: 1.2rem;
+    font-size: 1.4rem;
+    font-style: italic;
+   
+
+}
+.Endorsements_from{
+    margin-top: 1.2rem;
+    font-size: 1.5rem;
+    font-style: italic;
+    
+
+}
+.Reach_out {
+    margin-top: 1.2rem;
+    font-size: 1.1rem;
+    font-style: italic;
+   
+    
+}
+
+.myModal3 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4);
+  }
+  .modal-content {
+    background-color: #fefefe;
+    overflow-y :scroll ;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+    height: 50%;
+    /* position: absolute; */
+    border-radius: 20px;
+
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+.close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .coder_pic{
+      clip-path: 50%;
+      margin-top: 2rem;
+      clip-path: circle(100%);
+
+  }
+  .myModal4 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4);
+  }
+  .modal-content {
+    background-color: #fefefe;
+    overflow-y :scroll ;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+    height: 50%;
+    /* position: absolute; */
+    border-radius: 20px;
+
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+.close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
