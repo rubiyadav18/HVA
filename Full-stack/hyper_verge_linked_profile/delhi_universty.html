@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style8.css">
+    <script src="https://kit.fontawesome.com/d4982a21df.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="header__left">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/1200px-Linkedin.svg.png"
+            alt="" />
+          <div class="header__search">
+            <i class="material-icons"> </i>
+            <i class="fas fa-search"> </i> 
+            <input type="text" placeholder=Search/>
+          </div>
+        </div>
+        <div class="header__right">
+            <div class="headerOption">
+              <i  id="home _icons" class="fas fa-home"></i>
+              <h3>Home</h3>
+            </div>
+  
+            <div class="headerOption">
+              <i  id="network" class="fas fa-network-wired"></i>
+              <h3>My Network</h3>
+            </div>
+  
+            <div class="headerOption">
+              <i class="fas fa-laptop-code"></i>
+              <h3>Jobs</h3>
+            </div>
+  
+            <div class="headerOption">
+              <i class="fas fa-inbox"></i>
+              <h3>Messaging</h3>
+            </div>
+  
+            <div class="headerOption">
+              <i class="far fa-bell"></i>
+              <h3>Notifications</h3>
+            </div> 
+          </div>
+      </div>
+      <div class="second_background">
+        <div class="profile pic">
+          <img src="https://www.duupdates.in/wp-content/uploads/2018/12/Courses-in-Delhi-University.png "width="100%" height="300rem">
+    
+          <img src="https://upload.wikimedia.org/wikipedia/en/8/84/University_of_Delhi.png"width="135px" height="135" class="my_image_seconsd_part">
+
+          <div>
+  
+
+            <h1 class="collage_name_heading">
+                Delhi University Delhi  Uttra Ptadesh 
+            </h1>
+            <p class="kanpur_uttra_pradesh">
+              Kanpur   Uttar  Pradesh,  65,902 + alumni. 50 8,36  followers
+            </p>
+
+            <div>
+              <img src="https://img.freepik.com/free-photo/beautiful-girl-stands-near-walll-with-leaves_8353-5378.jpg?size=626&ext=jpg" height="35px" width="35px" class="my_image">
+              <img src="https://i.pinimg.com/564x/6f/de/85/6fde85b86c86526af5e99ce85f57432e.jpg" height="35px" width="35px" class="my_image2">
+              <img src="assete/my_pic.jpeg" height="35px" width="35px" class="my_image3" >
+               <p class="people_from_your">
+                33 people  from ypur  school work here  130. employees
+               </p>
+               <div class="tools">
+                <p  class="Technical">
+                  <i  id ="right_icons" class="fas fa-check"> Following</i>
+                </p>
+
+                <p class="concat_us">
+                 <i  id="arrow_icons"class="fas fa-arrow-down"> concat_us</i>
+                 
+                </p>
+
+                <p class="more_heading">
+                  <p class="box_inside">
+                    More
+
+                  </p>
+                  
+                </p>
+                
+
+                
+               </div>
+               <hr class="horizenral">
+               <div>
+
+                 <h2 class="home_hedaing">
+                   Home
+                   <h2 class="about_heading">
+                     About
+
+                   </h2>
+                   <h2 class="posts_heading">
+                    Posts
+
+                  </h2>
+                  <h2 class="jobs_heading">
+                    Jobs
+
+                  </h2>
+                  <h2 class="alumni_heading">
+                    Alumani
+
+                  </h2>
+                 </h2>
+               </div>
+
+               <hr class="second_horizental_line">
+                
+               <div id='myModal3' class="myModal3">
+                
+           
+
+
+                <div class="modal-content">
+                  <p>
+                    Unfollow Page
+                    <hr class="Unfollow_Page_line">
+                  </p>
+                  <p class="you_are_about">
+                    You are about to unfollow Chatrapati Sahuji<br> Maharaj Kanpur University, Kanpur
+                  </p>
+                  <hr class="hoeozental_line_your_are_about">
+                  <div>
+                    <p class="cancel_box">
+                      <p class="Cancil">
+                        Cancel
+
+                      </p>
+                      <div class="unfollow">
+                    
+                        <p class="unfollow_heading">
+                          Unfollow
+                        </p>
+
+                      </div>
+                     
+                      
+                     </p>
+                  </div>
+                  
+                  
+                </div>
+               </div>
+        
+            
+              
+            
+            
+            </div>
+
+          </div>
+        </div>
+       
+</div> 
+</body>
+
+<script>
+  // Get the modal
+  var modal3 = document.getElementById("myModal3");
+  var myBtn3 = document.getElementById("right_icons");
+  var span = document.getElementsByClassName(" Cancil")[0];
+
+  myBtn3.onclick = function () {
+      modal3.style.display = "block";
+  }
+
+  span.onclick = function () {
+      modal3.style.display = "none";
+  }
+  window.onclick = function (event) {
+      if (event.target == modal3) {
+          modal3.style.display = "none";
+      }
+  }
+</script>
+</html>
